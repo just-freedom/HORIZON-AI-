@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230a0f1e'/><text x='16' y='23' font-family='monospace' font-size='17' font-weight='bold' fill='%2356c1ff' text-anchor='middle'>H</text></svg>">
 
     <style data-injected-css="">
 /* ---- Sibling elements from the same source ---- */
@@ -7648,7 +7649,7 @@ body{overflow-x:hidden}
           itemStyle: { color: 'transparent', borderColor: cssColor('--border', 0.7), borderWidth: 1 },
           splitLine: { show: false },
           yearLabel: { show: false },
-          monthLabel: { color: cssColor('--muted-foreground'), fontSize: 10, formatter: function (p) { return p.month + '月'; } },
+          monthLabel: { color: cssColor('--muted-foreground'), fontSize: 10, formatter: function (p) { if (p && typeof p === 'object' && p.nameMap) return p.nameMap; var m = (p && typeof p === 'object') ? (p.M != null ? p.M : (p.month != null ? p.month : '')) : p; if (typeof m === 'string' && m.indexOf('-') >= 0) m = m.split('-')[1]; return m + '月'; } },
           dayLabel: { show: false }
         },
         series: [{ type: 'heatmap', coordinateSystem: 'calendar', data: data }]
