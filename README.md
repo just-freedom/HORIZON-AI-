@@ -1,3 +1,14 @@
+---
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: e3f20544f50ffbec6278317e895e4aed_2e880a4aba9311f189c8525400393706
+    ReservedCode1: VlebTJdSxPeVIwH+K21mG2bm3saOdJ3HdRcMh9hXiSVJZh5+6f1QUFbFCD65JtOmpCuQydCfu0TwI0uQS+vbWwZprR0KVVOSB4SSYkN1b7P4e+uLw1cRH5yqLHxYAG+p/4mQtjZ9Ygh1r1k768G2Yny/Ka29RRNnMNaE4CHh/3eEpfc2um2u87wiws0=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: e3f20544f50ffbec6278317e895e4aed_2e880a4aba9311f189c8525400393706
+    ReservedCode2: VlebTJdSxPeVIwH+K21mG2bm3saOdJ3HdRcMh9hXiSVJZh5+6f1QUFbFCD65JtOmpCuQydCfu0TwI0uQS+vbWwZprR0KVVOSB4SSYkN1b7P4e+uLw1cRH5yqLHxYAG+p/4mQtjZ9Ygh1r1k768G2Yny/Ka29RRNnMNaE4CHh/3eEpfc2um2u87wiws0=
+---
+
 # Horizon 地平线人工智能
 
 > 看见未来，陪你走向未来。
@@ -45,3 +56,4 @@ https://app-ec0c85v4jksh.miaoda.online/
 ## License
 
 MIT
+*（内容由AI生成，仅供参考）*
